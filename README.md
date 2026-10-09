@@ -58,3 +58,7 @@ Tiada credential diperlukan untuk laman statik ini. Google Forms dan kalendar me
 ## Palet warna
 
 Tema visual laman menggunakan warna daripada template yang dibekalkan: Calypso (#2B6077) sebagai warna utama, Tower Gray (#B0C0C6) untuk neutral, Shadow (#787046) sebagai aksen, dan Verdigris (#534E32) sebagai sokongan tona gelap.
+
+## Soalan Lazim
+
+Bahagian Soalan Lazim dan fungsi carian, penapis kategori serta paparan proses laporan dikendalikan oleh `faq.js`. Kandungan FAQ boleh dikemas kini dalam senarai data pada fail tersebut.

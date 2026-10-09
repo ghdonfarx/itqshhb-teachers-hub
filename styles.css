@@ -139,7 +139,7 @@ h2 { margin: 0; color: var(--primary-deep); font-family: Georgia, "Times New Rom
 .faq-search-icon { position: absolute; top: 50%; left: 16px; width: 20px; height: 20px; transform: translateY(-50%); fill: none; stroke: var(--muted); stroke-width: 1.7; stroke-linecap: round; }
 .faq-categories { display: flex; gap: 8px; overflow-x: auto; padding: 2px 1px 8px; scrollbar-width: none; overscroll-behavior-inline: contain; }
 .faq-categories::-webkit-scrollbar { display: none; }
-.faq-chip { min-height: 42px; flex: 0 0 auto; padding: 0 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--white); color: var(--primary-deep); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .18s ease, color .18s ease, border-color .18s ease; }
+.faq-chip { min-height: 44px; flex: 0 0 auto; padding: 0 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--white); color: var(--primary-deep); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .18s ease, color .18s ease, border-color .18s ease; }
 .faq-chip:hover { border-color: var(--primary); }
 .faq-chip.is-active { border-color: var(--primary); background: var(--primary); color: var(--white); }
 .faq-chip:focus-visible, .faq-text-button:focus-visible, .faq-question:focus-visible, .faq-process summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }

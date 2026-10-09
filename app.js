@@ -34,7 +34,7 @@
       link.target = "_blank";
       link.rel = "noopener noreferrer";
       link.setAttribute("aria-label", `${labels[service]} (dibuka pada tab baharu)`);
-      link.innerHTML = `Buka Perkhidmatan ${actionIcons.external}`;
+      link.innerHTML = `Buka Pautan ${actionIcons.external}`;
       slot.append(link);
       return;
     }

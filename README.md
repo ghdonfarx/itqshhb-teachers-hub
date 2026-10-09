@@ -54,3 +54,7 @@ Portal ini statik dan tidak memerlukan pangkalan data atau build step. Untuk pen
 2. Gunakan repositori Teacher's Hub yang berasingan daripada laman BPP.
 
 Tiada credential diperlukan untuk laman statik ini. Google Forms dan kalendar mengurus akses serta data di sistem masing-masing. Jika kawalan akses warga sekolah diwajibkan, gunakan penyelesaian Google Workspace yang disahkan dan jangan menganggap pautan tersembunyi atau kod pelayar sebagai kawalan keselamatan.
+
+## Palet warna
+
+Tema visual laman menggunakan warna daripada template yang dibekalkan: Calypso (#2B6077) sebagai warna utama, Tower Gray (#B0C0C6) untuk neutral, Shadow (#787046) sebagai aksen, dan Verdigris (#534E32) sebagai sokongan tona gelap.

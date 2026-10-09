@@ -67,16 +67,13 @@ h2 { margin: 0; color: var(--green-deep); font-family: Georgia, "Times New Roman
 .icon-wrap svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.55; stroke-linecap: round; stroke-linejoin: round; }
 .card-number { color: #9aa9a1; font-family: Georgia, serif; font-size: 12px; letter-spacing: .08em; }
 .service-card h3 { margin: 0 0 9px; color: #203b31; font-family: Georgia, "Times New Roman", serif; font-size: 20px; line-height: 1.25; font-weight: 500; letter-spacing: -.02em; }
-.service-card > p:not(.booking-note) { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.service-card > p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
 .card-action { margin-top: auto; padding-top: 20px; }
 .card-link { width: fit-content; min-height: 44px; display: inline-flex; align-items: center; gap: 9px; color: var(--green); text-decoration: none; font-size: 14px; font-weight: 700; }
 .card-link svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: transform .18s ease; }
 .card-link:hover svg { transform: translate(2px, -2px); }
 .unavailable { min-height: 40px; display: inline-flex; align-items: center; gap: 8px; color: #707d76; font-size: 13px; }
 .unavailable svg { width: 16px; height: 16px; fill: none; stroke: #89968f; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.service-card--booking { min-height: 280px; grid-column: span 2; }
-.booking-note { max-width: 440px; display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; color: #52645a; font-size: 13px; line-height: 1.5; }
-.booking-note span { flex: 0 0 17px; width: 17px; height: 17px; display: inline-grid; place-items: center; border: 1px solid #a9b6ad; border-radius: 50%; color: #63736b; font-size: 11px; font-family: Georgia, serif; font-style: italic; }
 .privacy-note { width: min(1160px, calc(100% - 56px)); display: flex; align-items: center; gap: 8px; margin: 23px auto 0; color: #718078; font-size: 12px; line-height: 1.5; }
 .privacy-note svg { flex: 0 0 18px; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .site-footer { border-top: 1px solid var(--line); background: #f5f4ec; }
@@ -94,7 +91,6 @@ h2 { margin: 0; color: var(--green-deep); font-family: Georgia, "Times New Roman
 @media (max-width: 780px) {
   .hero-seal { right: 7%; width: 112px; height: 112px; opacity: .55; }
   .service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .service-card--booking { grid-column: span 2; }
   .section-heading { align-items: start; flex-direction: column; gap: 11px; }
   .section-intro { max-width: 500px; }
 }
@@ -121,11 +117,10 @@ h2 { margin: 0; color: var(--green-deep); font-family: Georgia, "Times New Roman
   h2 { font-size: 32px; }
   .section-heading { margin-bottom: 23px; }
   .service-grid { grid-template-columns: 1fr; gap: 12px; }
-  .service-card, .service-card--booking { min-height: 0; grid-column: auto; padding: 19px; }
+  .service-card { min-height: 0; grid-column: auto; padding: 19px; }
   .card-top { margin-bottom: 17px; }
   .service-card h3 { font-size: 19px; }
   .card-action { padding-top: 14px; }
-  .booking-note { margin-top: 12px; }
   .privacy-note { align-items: flex-start; margin-top: 18px; font-size: 12px; }
   .footer-inner { padding-top: 22px; }
   .footer-brand p { max-width: 245px; line-height: 1.45; }

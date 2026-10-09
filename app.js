@@ -10,8 +10,7 @@
     akademik: "Buka borang kemajuan akademik",
     aktiviti: "Buka borang laporan aktiviti pelajar",
     kalendar: "Buka kalendar aktiviti Institut",
-    bpp: "Buka laman web Bahagian Pembangunan Pelajar",
-    tempahan: "Buka sistem tempahan tarikh"
+    bpp: "Buka laman web Bahagian Pembangunan Pelajar"
   };
 
   const safeExternalUrl = (value) => {

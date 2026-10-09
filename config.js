@@ -1,7 +1,6 @@
 /*
  * Central link configuration for ITQSHHB Teacher's Hub.
  * Form and activity-calendar URLs were supplied for this version.
- * `tempahan` remains blank until an approved booking system URL is available.
  */
 const HUB_CONFIG = Object.freeze({
   siteName: "ITQSHHB Teacher's Hub",
@@ -11,7 +10,6 @@ const HUB_CONFIG = Object.freeze({
     akademik: "https://forms.gle/n3gdwBWqRN3y2x3dA",
     aktiviti: "https://forms.gle/LrfAJvvkgpXGqqwy8",
     kalendar: "https://script.google.com/macros/s/AKfycbxbKeQNSAoQcmg91LcHAv_J9B2QUw8mhATyG44a12zPc-_kA7kOkeV2Q7JlIdPuj22H-g/exec",
-    bpp: "https://hep-itqshhb.github.io/bpp-itq/",
-    tempahan: ""
+    bpp: "https://hep-itqshhb.github.io/bpp-itq/"
   })
 });

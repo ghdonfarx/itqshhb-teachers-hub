@@ -34,7 +34,7 @@ links: {
 
 ## Imej hero
 
-Imej hero yang dibekalkan disimpan sebagai `hero-itqshhb.jpg` dalam format termampat untuk memendekkan masa muat turun. Teks hero dipaparkan di bawah imej dan tidak dicetak pada imej.
+Imej hero yang dibekalkan disimpan sebagai `hero-itqshhb.webp` dalam format termampat supaya keseluruhan menara jelas kelihatan dan masa muat turun lebih singkat. Teks hero dipaparkan di bawah imej dan tidak dicetak pada imej.ntuk memendekkan masa muat turun. Teks hero dipaparkan di bawah imej dan tidak dicetak pada imej.
 
 ## Logo
 

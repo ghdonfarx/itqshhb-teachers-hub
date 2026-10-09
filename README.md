@@ -32,6 +32,10 @@ links: {
 }
 ```
 
+## Imej hero
+
+Imej hero yang dibekalkan disimpan sebagai `hero-itqshhb.jpg` dalam format termampat untuk memendekkan masa muat turun. Teks hero dipaparkan di bawah imej dan tidak dicetak pada imej.
+
 ## Logo
 
 Logo ITQSHHB yang dibekalkan disimpan pada `logo-itqshhb.png`. Untuk menggantikannya, letakkan fail logo rasmi yang diluluskan di lokasi sama dengan nama yang sama. Jangan gunakan logo rekaan atau tiruan.
